@@ -1,28 +1,22 @@
 // ❗ ЗАДАЧА #1
 
-// Пришел трёхдневный прогноз максимальных температур и мы считаем среднюю температуру за три дня (meanTemperature). Замени объявления переменных yesterday, today и tomorrow одной операцией деструктуризации свойств объекта highTemperatures.
+// Дополни код так, чтобы в переменной result был результат выполнения функции makePizza, а в переменной pointer была ссылка на функцию makePizza.
 
 // ТЕСТЫ
 
-// ✅ Объявлена переменная highTemperatures
-// ✅ Значение переменной highTemperatures это объект
-// ✅ Объявлена переменная yesterday с помощью деструктуризации
-// ✅ Значение переменной yesterday это число 28
-// ✅ Объявлена переменная today с помощью деструктуризации
-// ✅ Значение переменной today это число 26
-// ✅ Объявлена переменная tomorrow с помощью деструктуризации
-// ✅ Значение переменной tomorrow это число 33
-// ✅ Объявлена переменная meanTemperature
-// ✅ Значение переменной meanTemperature это число 29
-// ✅ Используется синтаксис деструктуризации объекта highTemperatures
+// ✅ Объявлена функция makePizza
+// ✅ Объявлена переменная result
+// ✅ Значение переменной result это строка "Your pizza is being prepared, please wait."
+// ✅ Значение переменной result получено с помощью вызова функции
+// ✅ Объявлена переменная pointer
+// ✅ Значение переменной pointer это ссылка на функцию makePizza
 
 
-// const highTemperatures = {
-//   yesterday: 28,
-//   today: 26,
-//   tomorrow: 33,
-// };
-// const { yesterday, today, tomorrow } = highTemperatures;
-// const meanTemperature = (yesterday + today + tomorrow) / 3;
-// console.log(highTemperatures);
-// console.log(meanTemperature);
+function makePizza() {
+  return "Your pizza is being prepared, please wait.";
+}
+const result = null;
+const pointer = null;
+console.log(makePizza);
+console.log(result);
+console.log(pointer);
